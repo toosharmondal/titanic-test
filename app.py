@@ -54,7 +54,7 @@ X_test_scaled = scaler.transform(X_test)
 
 
 # 8. Model training
-model = LogisticRegression(max_iter=1000)
+model = SVC()
 model.fit(X_train_scaled, y_train)
 
 
